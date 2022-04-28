@@ -1,0 +1,79 @@
+.flexbox-container 
+{
+	display: flex;
+	flex-flow: row;
+ 	justify-content: center;
+}
+.flexbox-container > section:nth-child(1) 
+{
+	width: 50%;
+	margin-right: 20px;
+}
+.flexbox-container > section:nth-child(2) 
+{
+	width: 50%;
+}
+
+body 
+{
+	max-width: 900px;
+  	margin: 0 auto;
+}
+
+
+img 
+{
+	width: 250px;
+	height: 250px;
+	display: block;
+    margin: 0 auto;
+}
+
+input[type=text] 
+{
+	outline: none;
+	border: 0.5px solid;
+	height: 20px;
+	width: 80%;
+	margin-right: 40px;
+
+}
+
+ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li 
+{
+	border: 0.5px solid;
+	height: 50px;
+	text-align: left;
+}
+
+ul li div 
+{
+	padding: 10px;
+	height: 30px;
+
+}
+
+#profilePicture-container 
+{
+	border: 0.5px solid;
+}
+#repo-container
+{
+	overflow-y: scroll;
+	height: 500px; 
+}
+#profile li div 
+{
+	padding-top: 15px;
+}
+#repositories li 
+{
+	height: 30%;
+}
